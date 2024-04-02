@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+
+    <header>
+        <!-- Aquí va el encabezado del sitio web, como el logo, menú de navegación, etc. -->
+        <h1>Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="registro.html">Formulario de Consulta</a></li>
+                
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <body>
+
+
+        <section>
+
+            <h2>Registro</h2>
+
+            <form action="show-data.html" target="_blank">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <label for="firstname">Nombre: </label>
+                    <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui...">
+                    <br>
+
+                    <label for="lastname">Apellido:</label>
+                    <input size="30" type="text" name="lastname" placeholder="Ingrese su apellido aqui...">
+                    <br>
+
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" placeholder="Ingrese su email aqui...">
+
+                    
+                    <br>
+
+                    <label for="telefono">Telefono: </label>
+                    <input type="tel" name="telefono" placeholder="Ingrese su telefono aqui ....">
+                    <br>
+
+                    <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label>
+                    <input type="date" name="birthdate">
+                    <br>
+
+                    <label for="pais">País</label>
+                    <select id="pais" name="pais">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                    </select>
+                    
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" name="terminos" value=""> Terminos y condiciones
+                </p>
+
+                
+                <input type="submit" value="Enviar">
+                <button type="reset">Limpiar</button>
+            </form>
+
+        </section>
+        
+    </body>
+
+    <footer>
+        <!-- Pie de página -->
+        <p>&copy; 2024 Mi Sitio Web</p>
+        
+    </footer>
+    
+</body>
+</html>
